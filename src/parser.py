@@ -8,7 +8,7 @@ import xml.etree.ElementTree as ET
 import binascii
 
 def GetTraceList():
-    tree = ET.parse('../resources/IOMonitorLog.xml')
+    tree = ET.parse('IOMonitorLog.xml')
     root = tree.getroot()
     
     for child in root.iter('TraceList'):
@@ -29,6 +29,9 @@ if __name__ == '__main__':
     IsBinBlock = False
     Output = ""
     
+    OutputLog = open("Output.txt", "w")
+    OutputExcel = open("Output.xls", "w")
+    
     for child in GetTraceList():
         
         CurrentBinaryData = ""
@@ -45,7 +48,7 @@ if __name__ == '__main__':
         if (CurrentBinaryData is None or CurrentBinaryData is ""): continue
 
         # Convert data from Binary to ASCII
-        CurrentAsciiData = binascii.b2a_qp(binascii.unhexlify(CurrentBinaryData))  
+        CurrentAsciiData = binascii.b2a_qp(binascii.unhexlify(CurrentBinaryData))
         Output = Output + CurrentAsciiData.decode('utf-8')
 
         if (CurrentAsciiData.decode('utf-8') == "#"):
@@ -60,6 +63,10 @@ if __name__ == '__main__':
         if (IsBinBlock): continue
         
         # Output the Data
-        print(child.get('MethodName'))
-        if (not Output.endswith("\n")): Output = Output + "\n"
-        print(Output)
+        Output  = Output.replace('\n', '')
+        print("%s\n%s\n%s\n" % (child.get('Address'),child.get('MethodName'), Output))
+        OutputLog.write("%s\n%s\n%s\n\n" % (child.get('Address'),child.get('MethodName'), Output))
+        OutputExcel.write("{}\t{}\t{}\n".format(child.get('Address'),child.get('MethodName'), Output))
+
+    OutputLog.close()
+    OutputExcel.close()
