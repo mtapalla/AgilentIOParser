@@ -17,6 +17,7 @@ def GetTraceList():
 def ExtractBinaryData(child):
     for subchild in child.iter('Parameter'):
         if (('buf' not in subchild.get('Name'))): continue
+        if (subchild.get('ParamType') is 'pointer32'): return None
          
         for subsubchild in subchild.iter('Element'):
             if ('BinHexValue' not in subsubchild.attrib): continue
@@ -24,34 +25,41 @@ def ExtractBinaryData(child):
 
 if __name__ == '__main__':
     
-    ParseRead = False
+    IsParsingRead = False
+    IsBinBlock = False
+    Output = ""
     
     for child in GetTraceList():
         
-        BinaryData = ""
+        CurrentBinaryData = ""
+        if (IsBinBlock == False): Output = "" # Reset 'Output' if we're not accumulating binblock data
 
-        if (ParseRead):
-            ParseRead = False
-            BinaryData = ExtractBinaryData(child)
-        
-        if ("viWrite" in child.get('MethodName')):
-            print(child.get('MethodName'))
-            BinaryData = ExtractBinaryData(child)
+        if ("viWrite" in child.get('MethodName')): CurrentBinaryData = ExtractBinaryData(child)
+        if (IsParsingRead): CurrentBinaryData = ExtractBinaryData(child)
     
         if ("viRead" in child.get('MethodName')):
-            print(child.get('MethodName'))
-            ParseRead = True
-            continue
+            if (IsBinBlock == False):
+                IsParsingRead = True
+                continue
 
-        if (BinaryData is ""): continue
+        if (CurrentBinaryData is None or CurrentBinaryData is ""): continue
 
-        print(child.get('Address'))
-        try:
-            AsciiData = binascii.b2a_qp(binascii.unhexlify(BinaryData))  
-            Output = "Data: %s" % AsciiData.decode('utf-8')
-            if (not Output.endswith("\n")): Output = Output + "\n"
-            print(Output)
-        except:
-            print("* Error parsing. Incorrect command?\n")
-            continue
+        # Convert data from Binary to ASCII
+        CurrentAsciiData = binascii.b2a_qp(binascii.unhexlify(CurrentBinaryData))  
+        Output = Output + CurrentAsciiData.decode('utf-8')
 
+        if (CurrentAsciiData.decode('utf-8') == "#"):
+            IsBinBlock = True
+
+        # Done accumulating BinBlock data?
+        if (CurrentAsciiData.decode('utf-8') == "\n"):
+            IsBinBlock = False
+            IsParsingRead = False
+        
+        # If we're accumulating BinBlock data, we don't want to print just yet
+        if (IsBinBlock): continue
+        
+        # Output the Data
+        print(child.get('MethodName'))
+        if (not Output.endswith("\n")): Output = Output + "\n"
+        print(Output)
