@@ -1,164 +1,9 @@
 <?xml version="1.0"?>
 <TraceSessionDump>
     <TraceApp>IOMonitor</TraceApp>
-    <Date>Thursday, April 17, 2014</Date>
+    <Date>Saturday, April 19, 2014</Date>
     <TraceList>
-        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viClose" Timestamp="162126982102427" AppName="InteractiveIO.exe" ThreadID="7036" ProcessID="13272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="2">
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-            <Parameter Name="vi" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="1" />
-            </Parameter>
-        </Method_Enter>
-        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="162126982102427" AppName="" ThreadID="7036" ProcessID="13272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="1" HRESULT="0" ElapsedNS="16916000">
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-        </Method_Exit>
-        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viClose" Timestamp="162126999537751" AppName="InteractiveIO.exe" ThreadID="7036" ProcessID="13272" Address="defaultRM" ParamCount="2">
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-            <Parameter Name="vi" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="256" />
-            </Parameter>
-        </Method_Enter>
-        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="162126999537751" AppName="" ThreadID="7036" ProcessID="13272" Address="defaultRM" ParamCount="1" HRESULT="0" ElapsedNS="543532">
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-        </Method_Exit>
-        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viOpenDefaultRM" Timestamp="162127000679826" AppName="InteractiveIO.exe" ThreadID="7036" ProcessID="13272" Address="" ParamCount="2">
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-            <Parameter Name="vi" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
-                <Element Value="0x10fd3b28" />
-            </Parameter>
-        </Method_Enter>
-        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="162127000679826" AppName="" ThreadID="7036" ProcessID="13272" Address="defaultRM" ParamCount="2" HRESULT="0" ElapsedNS="922034">
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-            <Parameter Name="vi" RetVal="False" InParam="False" OutParam="True" ParamType="uint32">
-                <Element Value="256" />
-            </Parameter>
-        </Method_Exit>
-        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viOpen" Timestamp="162127001714754" AppName="InteractiveIO.exe" ThreadID="7036" ProcessID="13272" Address="MXA_ADDRESS" ParamCount="6">
-            <Parameter Name="accessMode" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="0" />
-            </Parameter>
-            <Parameter Name="rsrcName" RetVal="False" InParam="True" OutParam="False" ParamType="array_int8">
-                <Element BinHexValue="4d58415f41444452455353" />
-            </Parameter>
-            <Parameter Name="sesn" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="256" />
-            </Parameter>
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-            <Parameter Name="timeout" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="2000" />
-            </Parameter>
-            <Parameter Name="vi" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
-                <Element Value="0x10fd3b2c" />
-            </Parameter>
-        </Method_Enter>
-        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="162127001714754" AppName="" ThreadID="7036" ProcessID="13272" Address="defaultRM" ParamCount="2" HRESULT="0" ElapsedNS="31529400">
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-            <Parameter Name="vi" RetVal="False" InParam="False" OutParam="True" ParamType="uint32">
-                <Element Value="1" />
-            </Parameter>
-        </Method_Exit>
-        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viGetAttribute" Timestamp="162127033342269" AppName="InteractiveIO.exe" ThreadID="7036" ProcessID="13272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="4">
-            <Parameter Name="attribute" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="3221159937" />
-            </Parameter>
-            <Parameter Name="pAttrState" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
-                <Element Value="0x16dbc0" />
-            </Parameter>
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-            <Parameter Name="vi" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="1" />
-            </Parameter>
-        </Method_Enter>
-        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="162127033342269" AppName="" ThreadID="7036" ProcessID="13272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="2" HRESULT="0" ElapsedNS="62399">
-            <Parameter Name="pAttrState" RetVal="False" InParam="False" OutParam="True" ParamType="array_int8">
-                <Element BinHexValue="494e535452" />
-            </Parameter>
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-        </Method_Exit>
-        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viGetAttribute" Timestamp="162127033459678" AppName="InteractiveIO.exe" ThreadID="7036" ProcessID="13272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="4">
-            <Parameter Name="attribute" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="1073676657" />
-            </Parameter>
-            <Parameter Name="pAttrState" RetVal="False" InParam="False" OutParam="True" ParamType="uint16">
-                <Element Value="0" />
-            </Parameter>
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-            <Parameter Name="vi" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="1" />
-            </Parameter>
-        </Method_Enter>
-        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="162127033459678" AppName="" ThreadID="7036" ProcessID="13272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="2" HRESULT="0" ElapsedNS="50905">
-            <Parameter Name="pAttrState" RetVal="False" InParam="False" OutParam="True" ParamType="uint16">
-                <Element Value="6" />
-            </Parameter>
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-        </Method_Exit>
-        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viGetAttribute" Timestamp="162127033552046" AppName="InteractiveIO.exe" ThreadID="7036" ProcessID="13272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="4">
-            <Parameter Name="attribute" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="268369948" />
-            </Parameter>
-            <Parameter Name="pAttrState" RetVal="False" InParam="False" OutParam="True" ParamType="uint16">
-                <Element Value="0" />
-            </Parameter>
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-            <Parameter Name="vi" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="1" />
-            </Parameter>
-        </Method_Enter>
-        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="162127033552046" AppName="" ThreadID="7036" ProcessID="13272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="2" HRESULT="0" ElapsedNS="48031">
-            <Parameter Name="pAttrState" RetVal="False" InParam="False" OutParam="True" ParamType="uint16">
-                <Element Value="32781" />
-            </Parameter>
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-        </Method_Exit>
-        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viSetAttribute" Timestamp="162127033649750" AppName="InteractiveIO.exe" ThreadID="7036" ProcessID="13272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="4">
-            <Parameter Name="attribute" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="1073676314" />
-            </Parameter>
-            <Parameter Name="attrState" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="20000" />
-            </Parameter>
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-            <Parameter Name="vi" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="1" />
-            </Parameter>
-        </Method_Enter>
-        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="162127033649750" AppName="" ThreadID="7036" ProcessID="13272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="1" HRESULT="0" ElapsedNS="555848">
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-        </Method_Exit>
-        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viWrite" Timestamp="162128102069980" AppName="InteractiveIO.exe" ThreadID="13300" ProcessID="13272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="5">
+        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viWrite" Timestamp="150901206532434" AppName="InteractiveIO.exe" ThreadID="2724" ProcessID="12024" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="5">
             <Parameter Name="buf" RetVal="False" InParam="True" OutParam="False" ParamType="array_uint8">
                 <Element BinHexValue="2a49444e3f0a" />
             </Parameter>
@@ -166,7 +11,7 @@
                 <Element Value="6" />
             </Parameter>
             <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
-                <Element Value="0x5b2ef60" />
+                <Element Value="0x5b5e590" />
             </Parameter>
             <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
                 <Element Value="0" />
@@ -175,7 +20,7 @@
                 <Element Value="1" />
             </Parameter>
         </Method_Enter>
-        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="162128102069980" AppName="" ThreadID="13300" ProcessID="13272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="2" HRESULT="0" ElapsedNS="3362180">
+        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="150901206532434" AppName="" ThreadID="2724" ProcessID="12024" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="2" HRESULT="0" ElapsedNS="129119000">
             <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="uint32">
                 <Element Value="6" />
             </Parameter>
@@ -183,15 +28,15 @@
                 <Element Value="0" />
             </Parameter>
         </Method_Exit>
-        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viRead" Timestamp="162128220676648" AppName="InteractiveIO.exe" ThreadID="12404" ProcessID="13272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="5">
+        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viRead" Timestamp="150901420709156" AppName="InteractiveIO.exe" ThreadID="2092" ProcessID="12024" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="5">
             <Parameter Name="buf" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
-                <Element Value="0x110e37e8" />
+                <Element Value="0x11007450" />
             </Parameter>
             <Parameter Name="cnt" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
                 <Element Value="1024" />
             </Parameter>
             <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
-                <Element Value="0x5ffeb34" />
+                <Element Value="0x370e914" />
             </Parameter>
             <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
                 <Element Value="0" />
@@ -200,7 +45,7 @@
                 <Element Value="1" />
             </Parameter>
         </Method_Enter>
-        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="162128220676648" AppName="" ThreadID="12404" ProcessID="13272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="3" HRESULT="0" ElapsedNS="1149880">
+        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="150901420709156" AppName="" ThreadID="2092" ProcessID="12024" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="3" HRESULT="0" ElapsedNS="122086000">
             <Parameter Name="buf" RetVal="False" InParam="False" OutParam="True" ParamType="array_uint8">
                 <Element BinHexValue="4167696c656e7420546563686e6f6c6f676965732c4e39303230412c4d5935323039313138342c412e31342e35305f50303031380a" />
             </Parameter>
@@ -211,224 +56,15 @@
                 <Element Value="0" />
             </Parameter>
         </Method_Exit>
-        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viWrite" Timestamp="162153957712023" AppName="InteractiveIO.exe" ThreadID="5680" ProcessID="13272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="5">
+        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viWrite" Timestamp="150907850533080" AppName="InteractiveIO.exe" ThreadID="5636" ProcessID="12024" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="5">
             <Parameter Name="buf" RetVal="False" InParam="True" OutParam="False" ParamType="array_uint8">
-                <Element BinHexValue="696e69743a636f6e74206f66660a" />
-            </Parameter>
-            <Parameter Name="cnt" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="14" />
-            </Parameter>
-            <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
-                <Element Value="0x5f0eb10" />
-            </Parameter>
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-            <Parameter Name="vi" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="1" />
-            </Parameter>
-        </Method_Enter>
-        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="162153957712023" AppName="" ThreadID="5680" ProcessID="13272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="2" HRESULT="0" ElapsedNS="968835">
-            <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="uint32">
-                <Element Value="14" />
-            </Parameter>
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-        </Method_Exit>
-        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viOpenDefaultRM" Timestamp="162282119504482" AppName="Agilent.SA.FastPower_R0011.exe" ThreadID="584" ProcessID="14272" Address="" ParamCount="2">
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-            <Parameter Name="vi" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
-                <Element Value="0x6bf1620" />
-            </Parameter>
-        </Method_Enter>
-        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="162282119504482" AppName="" ThreadID="584" ProcessID="14272" Address="defaultRM" ParamCount="2" HRESULT="0" ElapsedNS="5131540">
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-            <Parameter Name="vi" RetVal="False" InParam="False" OutParam="True" ParamType="uint32">
-                <Element Value="256" />
-            </Parameter>
-        </Method_Exit>
-        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viParseRsrcEx" Timestamp="162282131881751" AppName="Agilent.SA.FastPower_R0011.exe" ThreadID="584" ProcessID="14272" Address="MXA_ADDRESS" ParamCount="8">
-            <Parameter Name="aliasName" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
-                <Element Value="0x33e57c" />
-            </Parameter>
-            <Parameter Name="intfNum" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
-                <Element Value="0x33e814" />
-            </Parameter>
-            <Parameter Name="intfType" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
-                <Element Value="0x33e818" />
-            </Parameter>
-            <Parameter Name="rsrcClass" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
-                <Element Value="0x33e680" />
-            </Parameter>
-            <Parameter Name="rsrcName" RetVal="False" InParam="True" OutParam="False" ParamType="array_int8">
-                <Element BinHexValue="4d58415f41444452455353" />
-            </Parameter>
-            <Parameter Name="rsrcString" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
-                <Element Value="0x33e478" />
-            </Parameter>
-            <Parameter Name="sesn" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="256" />
-            </Parameter>
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-        </Method_Enter>
-        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="162282131881751" AppName="" ThreadID="584" ProcessID="14272" Address="defaultRM" ParamCount="6" HRESULT="0" ElapsedNS="2007870">
-            <Parameter Name="aliasName" RetVal="False" InParam="False" OutParam="True" ParamType="array_int8">
-                <Element BinHexValue="4d58415f41444452455353" />
-            </Parameter>
-            <Parameter Name="intfNum" RetVal="False" InParam="False" OutParam="True" ParamType="uint16">
-                <Element Value="0" />
-            </Parameter>
-            <Parameter Name="intfType" RetVal="False" InParam="False" OutParam="True" ParamType="uint16">
-                <Element Value="6" />
-            </Parameter>
-            <Parameter Name="rsrcClass" RetVal="False" InParam="False" OutParam="True" ParamType="array_int8">
-                <Element BinHexValue="494e535452" />
-            </Parameter>
-            <Parameter Name="rsrcString" RetVal="False" InParam="False" OutParam="True" ParamType="array_int8">
-                <Element BinHexValue="5443504950303a3a3134312e3132312e39322e3230353a3a696e7374303a3a494e535452" />
-            </Parameter>
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-        </Method_Exit>
-        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viParseRsrcEx" Timestamp="162282419557398" AppName="Agilent.SA.FastPower_R0011.exe" ThreadID="584" ProcessID="14272" Address="MXA_ADDRESS" ParamCount="8">
-            <Parameter Name="aliasName" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
-                <Element Value="0x33e564" />
-            </Parameter>
-            <Parameter Name="intfNum" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
-                <Element Value="0x33e818" />
-            </Parameter>
-            <Parameter Name="intfType" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
-                <Element Value="0x33e834" />
-            </Parameter>
-            <Parameter Name="rsrcClass" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
-                <Element Value="0x33e668" />
-            </Parameter>
-            <Parameter Name="rsrcName" RetVal="False" InParam="True" OutParam="False" ParamType="array_int8">
-                <Element BinHexValue="4d58415f41444452455353" />
-            </Parameter>
-            <Parameter Name="rsrcString" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
-                <Element Value="0x33e460" />
-            </Parameter>
-            <Parameter Name="sesn" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="256" />
-            </Parameter>
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-        </Method_Enter>
-        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="162282419557398" AppName="" ThreadID="584" ProcessID="14272" Address="defaultRM" ParamCount="6" HRESULT="0" ElapsedNS="251651">
-            <Parameter Name="aliasName" RetVal="False" InParam="False" OutParam="True" ParamType="array_int8">
-                <Element BinHexValue="4d58415f41444452455353" />
-            </Parameter>
-            <Parameter Name="intfNum" RetVal="False" InParam="False" OutParam="True" ParamType="uint16">
-                <Element Value="0" />
-            </Parameter>
-            <Parameter Name="intfType" RetVal="False" InParam="False" OutParam="True" ParamType="uint16">
-                <Element Value="6" />
-            </Parameter>
-            <Parameter Name="rsrcClass" RetVal="False" InParam="False" OutParam="True" ParamType="array_int8">
-                <Element BinHexValue="494e535452" />
-            </Parameter>
-            <Parameter Name="rsrcString" RetVal="False" InParam="False" OutParam="True" ParamType="array_int8">
-                <Element BinHexValue="5443504950303a3a3134312e3132312e39322e3230353a3a696e7374303a3a494e535452" />
-            </Parameter>
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-        </Method_Exit>
-        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viOpenDefaultRM" Timestamp="162282453349190" AppName="Agilent.SA.FastPower_R0011.exe" ThreadID="584" ProcessID="14272" Address="" ParamCount="2">
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-            <Parameter Name="vi" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
-                <Element Value="0x7f3d9e0" />
-            </Parameter>
-        </Method_Enter>
-        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="162282453349190" AppName="" ThreadID="584" ProcessID="14272" Address="defaultRM" ParamCount="2" HRESULT="0" ElapsedNS="160104">
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-            <Parameter Name="vi" RetVal="False" InParam="False" OutParam="True" ParamType="uint32">
-                <Element Value="257" />
-            </Parameter>
-        </Method_Exit>
-        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viOpen" Timestamp="162282454531496" AppName="Agilent.SA.FastPower_R0011.exe" ThreadID="584" ProcessID="14272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="6">
-            <Parameter Name="accessMode" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="0" />
-            </Parameter>
-            <Parameter Name="rsrcName" RetVal="False" InParam="True" OutParam="False" ParamType="array_int8">
-                <Element BinHexValue="5443504950303a3a3134312e3132312e39322e3230353a3a696e7374303a3a494e535452" />
-            </Parameter>
-            <Parameter Name="sesn" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="257" />
-            </Parameter>
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-            <Parameter Name="timeout" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="5000" />
-            </Parameter>
-            <Parameter Name="vi" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
-                <Element Value="0x7f3d83c" />
-            </Parameter>
-        </Method_Enter>
-        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="162282454531496" AppName="" ThreadID="584" ProcessID="14272" Address="defaultRM" ParamCount="2" HRESULT="0" ElapsedNS="131787000">
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-            <Parameter Name="vi" RetVal="False" InParam="False" OutParam="True" ParamType="uint32">
-                <Element Value="1" />
-            </Parameter>
-        </Method_Exit>
-        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viSetAttribute" Timestamp="162282588017982" AppName="Agilent.SA.FastPower_R0011.exe" ThreadID="584" ProcessID="14272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="4">
-            <Parameter Name="attribute" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="1073676314" />
-            </Parameter>
-            <Parameter Name="attrState" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="5000" />
-            </Parameter>
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-            <Parameter Name="vi" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="1" />
-            </Parameter>
-        </Method_Enter>
-        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="162282588017982" AppName="" ThreadID="584" ProcessID="14272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="1" HRESULT="0" ElapsedNS="1322710">
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-        </Method_Exit>
-        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viClear" Timestamp="162282589776663" AppName="Agilent.SA.FastPower_R0011.exe" ThreadID="584" ProcessID="14272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="2">
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-            <Parameter Name="vi" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="1" />
-            </Parameter>
-        </Method_Enter>
-        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="162282589776663" AppName="" ThreadID="584" ProcessID="14272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="1" HRESULT="0" ElapsedNS="5257980">
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-        </Method_Exit>
-        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viWrite" Timestamp="162282618457032" AppName="Agilent.SA.FastPower_R0011.exe" ThreadID="584" ProcessID="14272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="5">
-            <Parameter Name="buf" RetVal="False" InParam="True" OutParam="False" ParamType="array_uint8">
-                <Element BinHexValue="2a434c530a" />
+                <Element BinHexValue="494e49540a" />
             </Parameter>
             <Parameter Name="cnt" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
                 <Element Value="5" />
             </Parameter>
             <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
-                <Element Value="0x33e7b8" />
+                <Element Value="0x60de5b0" />
             </Parameter>
             <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
                 <Element Value="0" />
@@ -437,7 +73,7 @@
                 <Element Value="1" />
             </Parameter>
         </Method_Enter>
-        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="162282618457032" AppName="" ThreadID="584" ProcessID="14272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="2" HRESULT="0" ElapsedNS="12928600">
+        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="150907850533080" AppName="" ThreadID="5636" ProcessID="12024" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="2" HRESULT="0" ElapsedNS="149641000">
             <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="uint32">
                 <Element Value="5" />
             </Parameter>
@@ -445,15 +81,15 @@
                 <Element Value="0" />
             </Parameter>
         </Method_Exit>
-        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viWrite" Timestamp="162282633692773" AppName="Agilent.SA.FastPower_R0011.exe" ThreadID="584" ProcessID="14272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="5">
+        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viWrite" Timestamp="150915623026786" AppName="InteractiveIO.exe" ThreadID="12656" ProcessID="12024" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="5">
             <Parameter Name="buf" RetVal="False" InParam="True" OutParam="False" ParamType="array_uint8">
-                <Element BinHexValue="43414c433a46504f573a504f57313a5245530a" />
+                <Element BinHexValue="464f524d3a44415441205245414c2c33320a" />
             </Parameter>
             <Parameter Name="cnt" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="19" />
+                <Element Value="18" />
             </Parameter>
             <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
-                <Element Value="0x33e648" />
+                <Element Value="0x5b8e620" />
             </Parameter>
             <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
                 <Element Value="0" />
@@ -462,314 +98,23 @@
                 <Element Value="1" />
             </Parameter>
         </Method_Enter>
-        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="162282633692773" AppName="" ThreadID="584" ProcessID="14272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="2" HRESULT="0" ElapsedNS="775889">
+        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="150915623026786" AppName="" ThreadID="12656" ProcessID="12024" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="2" HRESULT="0" ElapsedNS="120059000">
             <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="uint32">
-                <Element Value="19" />
+                <Element Value="18" />
             </Parameter>
             <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
                 <Element Value="0" />
             </Parameter>
         </Method_Exit>
-        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viWrite" Timestamp="162282652082152" AppName="Agilent.SA.FastPower_R0011.exe" ThreadID="584" ProcessID="14272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="5">
+        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viWrite" Timestamp="150923727833683" AppName="InteractiveIO.exe" ThreadID="10196" ProcessID="12024" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="5">
             <Parameter Name="buf" RetVal="False" InParam="True" OutParam="False" ParamType="array_uint8">
-                <Element BinHexValue="43414c433a46504f573a504f57313a44454620274443436f75706c65643d46616c73652c456c65634174744279706173733d547275652c456c6563417474656e756174696f6e3d302c49464761696e3d302c4d656368417474656e756174696f6e3d31302c507265416d704d6f64653d4f66662c50726553656c6563746f724f66667365743d302c55736550726553656c6563746f723d46616c73652c45787465726e616c5265666572656e63654672657175656e63793d31303030303030302c4672657175656e63795265666572656e6365536f757263653d4175746f45787465726e616c4672657175656e63795265666572656e63652c4946547970653d" />
-            </Parameter>
-            <Parameter Name="cnt" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="942" />
-            </Parameter>
-            <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
-                <Element Value="0x33e69c" />
-            </Parameter>
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-            <Parameter Name="vi" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="1" />
-            </Parameter>
-        </Method_Enter>
-        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="162282652082152" AppName="" ThreadID="584" ProcessID="14272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="2" HRESULT="0" ElapsedNS="3156510">
-            <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="uint32">
-                <Element Value="942" />
-            </Parameter>
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-        </Method_Exit>
-        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viWrite" Timestamp="162282666263259" AppName="Agilent.SA.FastPower_R0011.exe" ThreadID="584" ProcessID="14272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="5">
-            <Parameter Name="buf" RetVal="False" InParam="True" OutParam="False" ParamType="array_uint8">
-                <Element BinHexValue="43414c433a46504f573a504f57313a524541443f0a" />
-            </Parameter>
-            <Parameter Name="cnt" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="21" />
-            </Parameter>
-            <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
-                <Element Value="0x33e6b4" />
-            </Parameter>
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-            <Parameter Name="vi" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="1" />
-            </Parameter>
-        </Method_Enter>
-        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="162282666263259" AppName="" ThreadID="584" ProcessID="14272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="2" HRESULT="0" ElapsedNS="1013990">
-            <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="uint32">
-                <Element Value="21" />
-            </Parameter>
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-        </Method_Exit>
-        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viGetAttribute" Timestamp="162282702781745" AppName="Agilent.SA.FastPower_R0011.exe" ThreadID="584" ProcessID="14272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="4">
-            <Parameter Name="attribute" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="1073676344" />
-            </Parameter>
-            <Parameter Name="pAttrState" RetVal="False" InParam="False" OutParam="True" ParamType="uint16">
-                <Element Value="55352" />
-            </Parameter>
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-            <Parameter Name="vi" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="1" />
-            </Parameter>
-        </Method_Enter>
-        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="162282702781745" AppName="" ThreadID="584" ProcessID="14272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="2" HRESULT="0" ElapsedNS="139988">
-            <Parameter Name="pAttrState" RetVal="False" InParam="False" OutParam="True" ParamType="uint16">
-                <Element Value="0" />
-            </Parameter>
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-        </Method_Exit>
-        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viRead" Timestamp="162282702989059" AppName="Agilent.SA.FastPower_R0011.exe" ThreadID="584" ProcessID="14272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="5">
-            <Parameter Name="buf" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
-                <Element Value="0x80639b8" />
-            </Parameter>
-            <Parameter Name="cnt" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="1" />
-            </Parameter>
-            <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
-                <Element Value="0x33e898" />
-            </Parameter>
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-            <Parameter Name="vi" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="1" />
-            </Parameter>
-        </Method_Enter>
-        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="162282702989059" AppName="" ThreadID="584" ProcessID="14272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="3" HRESULT="1073676294" ElapsedNS="608395">
-            <Parameter Name="buf" RetVal="False" InParam="False" OutParam="True" ParamType="array_uint8">
-                <Element BinHexValue="23" />
-            </Parameter>
-            <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="uint32">
-                <Element Value="1" />
-            </Parameter>
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="1073676294" />
-            </Parameter>
-        </Method_Exit>
-        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viRead" Timestamp="162282703732926" AppName="Agilent.SA.FastPower_R0011.exe" ThreadID="584" ProcessID="14272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="5">
-            <Parameter Name="buf" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
-                <Element Value="0x80639b8" />
-            </Parameter>
-            <Parameter Name="cnt" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="1" />
-            </Parameter>
-            <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
-                <Element Value="0x33e898" />
-            </Parameter>
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-            <Parameter Name="vi" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="1" />
-            </Parameter>
-        </Method_Enter>
-        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="162282703732926" AppName="" ThreadID="584" ProcessID="14272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="3" HRESULT="1073676294" ElapsedNS="410934">
-            <Parameter Name="buf" RetVal="False" InParam="False" OutParam="True" ParamType="array_uint8">
-                <Element BinHexValue="32" />
-            </Parameter>
-            <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="uint32">
-                <Element Value="1" />
-            </Parameter>
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="1073676294" />
-            </Parameter>
-        </Method_Exit>
-        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viRead" Timestamp="162282704257164" AppName="Agilent.SA.FastPower_R0011.exe" ThreadID="584" ProcessID="14272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="5">
-            <Parameter Name="buf" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
-                <Element Value="0x80639b8" />
-            </Parameter>
-            <Parameter Name="cnt" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="2" />
-            </Parameter>
-            <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
-                <Element Value="0x33e89c" />
-            </Parameter>
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-            <Parameter Name="vi" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="1" />
-            </Parameter>
-        </Method_Enter>
-        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="162282704257164" AppName="" ThreadID="584" ProcessID="14272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="3" HRESULT="1073676294" ElapsedNS="555438">
-            <Parameter Name="buf" RetVal="False" InParam="False" OutParam="True" ParamType="array_uint8">
-                <Element BinHexValue="3230" />
-            </Parameter>
-            <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="uint32">
-                <Element Value="2" />
-            </Parameter>
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="1073676294" />
-            </Parameter>
-        </Method_Exit>
-        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viRead" Timestamp="162282704926727" AppName="Agilent.SA.FastPower_R0011.exe" ThreadID="584" ProcessID="14272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="5">
-            <Parameter Name="buf" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
-                <Element Value="0x8061270" />
-            </Parameter>
-            <Parameter Name="cnt" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="20" />
-            </Parameter>
-            <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
-                <Element Value="0x33e890" />
-            </Parameter>
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-            <Parameter Name="vi" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="1" />
-            </Parameter>
-        </Method_Enter>
-        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="162282704926727" AppName="" ThreadID="584" ProcessID="14272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="3" HRESULT="1073676294" ElapsedNS="396566">
-            <Parameter Name="buf" RetVal="False" InParam="False" OutParam="True" ParamType="array_uint8">
-                <Element BinHexValue="d1ea95c2e06395c2dfdc54c117ac93c274ac93c2" />
-            </Parameter>
-            <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="uint32">
-                <Element Value="20" />
-            </Parameter>
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="1073676294" />
-            </Parameter>
-        </Method_Exit>
-        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viGetAttribute" Timestamp="162282705431260" AppName="Agilent.SA.FastPower_R0011.exe" ThreadID="584" ProcessID="14272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="4">
-            <Parameter Name="attribute" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="1073676314" />
-            </Parameter>
-            <Parameter Name="pAttrState" RetVal="False" InParam="False" OutParam="True" ParamType="uint32">
-                <Element Value="133421112" />
-            </Parameter>
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-            <Parameter Name="vi" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="1" />
-            </Parameter>
-        </Method_Enter>
-        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="162282705431260" AppName="" ThreadID="584" ProcessID="14272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="2" HRESULT="0" ElapsedNS="66094">
-            <Parameter Name="pAttrState" RetVal="False" InParam="False" OutParam="True" ParamType="uint32">
-                <Element Value="5000" />
-            </Parameter>
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-        </Method_Exit>
-        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viSetAttribute" Timestamp="162282705548670" AppName="Agilent.SA.FastPower_R0011.exe" ThreadID="584" ProcessID="14272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="4">
-            <Parameter Name="attribute" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="1073676314" />
-            </Parameter>
-            <Parameter Name="attrState" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="100" />
-            </Parameter>
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-            <Parameter Name="vi" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="1" />
-            </Parameter>
-        </Method_Enter>
-        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="162282705548670" AppName="" ThreadID="584" ProcessID="14272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="1" HRESULT="0" ElapsedNS="472512">
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-        </Method_Exit>
-        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viRead" Timestamp="162282706083992" AppName="Agilent.SA.FastPower_R0011.exe" ThreadID="584" ProcessID="14272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="5">
-            <Parameter Name="buf" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
-                <Element Value="0x80639b8" />
-            </Parameter>
-            <Parameter Name="cnt" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="1" />
-            </Parameter>
-            <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
-                <Element Value="0x33e890" />
-            </Parameter>
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-            <Parameter Name="vi" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="1" />
-            </Parameter>
-        </Method_Enter>
-        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="162282706083992" AppName="" ThreadID="584" ProcessID="14272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="3" HRESULT="0" ElapsedNS="410523">
-            <Parameter Name="buf" RetVal="False" InParam="False" OutParam="True" ParamType="array_uint8">
-                <Element BinHexValue="0a" />
-            </Parameter>
-            <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="uint32">
-                <Element Value="1" />
-            </Parameter>
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-        </Method_Exit>
-        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viSetAttribute" Timestamp="162282706588935" AppName="Agilent.SA.FastPower_R0011.exe" ThreadID="584" ProcessID="14272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="4">
-            <Parameter Name="attribute" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="1073676314" />
-            </Parameter>
-            <Parameter Name="attrState" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="5000" />
-            </Parameter>
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-            <Parameter Name="vi" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="1" />
-            </Parameter>
-        </Method_Enter>
-        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="162282706588935" AppName="" ThreadID="584" ProcessID="14272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="1" HRESULT="0" ElapsedNS="387123">
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-        </Method_Exit>
-        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viSetAttribute" Timestamp="162282707040510" AppName="Agilent.SA.FastPower_R0011.exe" ThreadID="584" ProcessID="14272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="4">
-            <Parameter Name="attribute" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="1073676344" />
-            </Parameter>
-            <Parameter Name="attrState" RetVal="False" InParam="True" OutParam="False" ParamType="uint16">
-                <Element Value="0" />
-            </Parameter>
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-            <Parameter Name="vi" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="1" />
-            </Parameter>
-        </Method_Enter>
-        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="162282707040510" AppName="" ThreadID="584" ProcessID="14272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="1" HRESULT="0" ElapsedNS="64042">
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-        </Method_Exit>
-        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viWrite" Timestamp="162282739458282" AppName="Agilent.SA.FastPower_R0011.exe" ThreadID="584" ProcessID="14272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="5">
-            <Parameter Name="buf" RetVal="False" InParam="True" OutParam="False" ParamType="array_uint8">
-                <Element BinHexValue="535953543a4552523f0a" />
+                <Element BinHexValue="464554433a53414e3f0a" />
             </Parameter>
             <Parameter Name="cnt" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
                 <Element Value="10" />
             </Parameter>
             <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
-                <Element Value="0x33e7ac" />
+                <Element Value="0x60ae5b0" />
             </Parameter>
             <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
                 <Element Value="0" />
@@ -778,7 +123,7 @@
                 <Element Value="1" />
             </Parameter>
         </Method_Enter>
-        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="162282739458282" AppName="" ThreadID="584" ProcessID="14272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="2" HRESULT="0" ElapsedNS="590742">
+        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="150923727833683" AppName="" ThreadID="10196" ProcessID="12024" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="2" HRESULT="0" ElapsedNS="157493000">
             <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="uint32">
                 <Element Value="10" />
             </Parameter>
@@ -786,81 +131,15 @@
                 <Element Value="0" />
             </Parameter>
         </Method_Exit>
-        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viRead" Timestamp="162282740149602" AppName="Agilent.SA.FastPower_R0011.exe" ThreadID="584" ProcessID="14272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="5">
+        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viRead" Timestamp="150923945571252" AppName="InteractiveIO.exe" ThreadID="12596" ProcessID="12024" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="5">
             <Parameter Name="buf" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
-                <Element Value="0x7f3ebf8" />
-            </Parameter>
-            <Parameter Name="cnt" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="1000" />
-            </Parameter>
-            <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
-                <Element Value="0x33e8b4" />
-            </Parameter>
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-            <Parameter Name="vi" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="1" />
-            </Parameter>
-        </Method_Enter>
-        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="162282740149602" AppName="" ThreadID="584" ProcessID="14272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="3" HRESULT="0" ElapsedNS="1304230">
-            <Parameter Name="buf" RetVal="False" InParam="False" OutParam="True" ParamType="array_uint8">
-                <Element BinHexValue="2b302c224e6f206572726f72220a" />
-            </Parameter>
-            <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="uint32">
-                <Element Value="14" />
-            </Parameter>
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-        </Method_Exit>
-        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viClose" Timestamp="162282744345558" AppName="Agilent.SA.FastPower_R0011.exe" ThreadID="584" ProcessID="14272" Address="defaultRM" ParamCount="2">
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-            <Parameter Name="vi" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="256" />
-            </Parameter>
-        </Method_Enter>
-        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="162282744345558" AppName="" ThreadID="584" ProcessID="14272" Address="defaultRM" ParamCount="1" HRESULT="0" ElapsedNS="98936">
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-        </Method_Exit>
-        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viWrite" Timestamp="162349418114820" AppName="InteractiveIO.exe" ThreadID="11332" ProcessID="13272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="5">
-            <Parameter Name="buf" RetVal="False" InParam="True" OutParam="False" ParamType="array_uint8">
-                <Element BinHexValue="524541443a43414c433a46504f57313f0a" />
-            </Parameter>
-            <Parameter Name="cnt" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="17" />
-            </Parameter>
-            <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
-                <Element Value="0x597eb30" />
-            </Parameter>
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-            <Parameter Name="vi" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="1" />
-            </Parameter>
-        </Method_Enter>
-        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="162349418114820" AppName="" ThreadID="11332" ProcessID="13272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="2" HRESULT="0" ElapsedNS="12099300">
-            <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="uint32">
-                <Element Value="17" />
-            </Parameter>
-            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="0" />
-            </Parameter>
-        </Method_Exit>
-        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viRead" Timestamp="162349537837701" AppName="InteractiveIO.exe" ThreadID="13460" ProcessID="13272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="5">
-            <Parameter Name="buf" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
-                <Element Value="0x11152c90" />
+                <Element Value="0x11002ac0" />
             </Parameter>
             <Parameter Name="cnt" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
                 <Element Value="1024" />
             </Parameter>
             <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
-                <Element Value="0x5f0e864" />
+                <Element Value="0x5bae454" />
             </Parameter>
             <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
                 <Element Value="0" />
@@ -869,48 +148,54 @@
                 <Element Value="1" />
             </Parameter>
         </Method_Enter>
-        <Method_Error TraceSource="Agilent VISA" MethodName="VISA" Timestamp="162349537837701" AppName="" ThreadID="13460" ProcessID="13272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="3" HRESULT="-1073807339" ElapsedNS="20005300000">
-            <Parameter Name="buf" RetVal="False" InParam="False" OutParam="True" ParamType="uint8">
-                <Element Value="0" />
+        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="150923945571252" AppName="" ThreadID="12596" ProcessID="12024" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="3" HRESULT="1073676294" ElapsedNS="120784000">
+            <Parameter Name="buf" RetVal="False" InParam="False" OutParam="True" ParamType="array_uint8">
+                <Element BinHexValue="2334313630304b189680c183fe6b4d087c54c2d708114d83b7a0c28b16bb4dc33115c2daef9f4e015546c28773594e211201c2c694b64e40cebbc2827ad54e608b76c2d5c50c4e802419c28561a04e900276c2d46ed44e9fe0d4c28734b64eafbf31c2ce26bf4ebf9d8ec105067b4ecf7becc2d575474edf5a49c28471344eef38a7c2c689164eff1704c28371734f077ab1c2d39f0a4f0f69e0c2825bb54f17590ec2d811294f1f483dc2828e7f4f27376cc2c88ca34f2f269ac2718ca24f3715c9c2cc36634f3f04f8c283889b4f46f427c2da9b304f4ee355c282adc54f56d284c2c75cd44f5ec1b3c280cf834f66b0e2c2e7e62f4f6ea010c28311314f768f3fc2d41f474f7e7e6ec28566bb4f8336cec2d4829f4f872e66c28504414f8b25fdc2e302854f8f1d94c2833e354f93152cc2cd81e74f970cc3c283a5fc4f9b045ac2cf9d534f9efbf2c27f088a4fa2f389c2ccf50c4fa6eb20c27fe7464faae2b8c2cb8f0a4faeda4fc280484f4fb2d1e7c2c3e8e04fb6c97ec2815ee14fbac115c2d1fc7c4fbeb8adc281bb874fc2b044c2ce0f494fc6a7dbc283094c4fca9f73c2cd17374fce970ac281c9144fd28ea1c2d0edf44fd68639c282e1504fda7dd0c2cdb9f24fde7568c2832a914fe26cffc2e17a764fe66496c28287454fea5c2ec2c852054fee53c5c282b92b4ff24b5cc2cafff24ff642f4c282a6f14ffa3a8bc2d70f424ffe3222c2865950500114ddc2d523c4500310a9c283caa850050c74c2ca6ccb50070840c2835fd55009040cc2d92833500affd7c28482be500cfba3c2d317ff500ef76fc28433da5010f33ac2bf00d25012ef06c284d0745014ead2c2cbb93c5016e69dc285521b5018e269c2c7ad98501ade35c283d0de501cda00c2cc8ee4501ed5ccc285939d5020d198c2c9e56e5022cd64c284f1175024c92fc2ce8faa5026c4fbc2826af95028c0c7c2d0dd86502abc92c2830aa2502cb85ec2c4c960502eb42ac28108885030aff5c2c932a15032abc1c27ebaeb5034a78dc2c47fbf5036a358c280296350389f24c2c98124503a9af0c27e53d1503c96bbc2d449ed503e9287c27d170450408e53c2c2a4a350428a1ec281af8a504485eac2d2ad3d504681b6c2815a3e50487d81c2c85aa6504a794dc281076c504c7519c2c77905504e70e5c27d68cc50506cb0c2d46f6b5052687cc27cd9a150546448c2d2974150566013c27c55e750585bdfc2c13e88505a57abc27c6430505c5376c2bdecad505e4f42c276a07350604b0ec2c624a0506246d9c273244b506442a5c2d85c7e50663e71c271c9f050683a3cc2c5284b506a3608c273410a506c31d4c2bf02ae506e2d9fc27174415070296bc2bd75ce50722537c269490950742102c2b1dcfa50761ccec26ba8615078189ac2c5e473507a1465c26bcbcd507c" />
             </Parameter>
             <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="uint32">
-                <Element Value="0" />
+                <Element Value="1024" />
             </Parameter>
             <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
-                <Element Value="-1073807339" />
+                <Element Value="1073676294" />
             </Parameter>
-        </Method_Error>
-        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viStatusDesc" Timestamp="162369557181546" AppName="InteractiveIO.exe" ThreadID="13460" ProcessID="13272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="4">
-            <Parameter Name="desc" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
-                <Element Value="0x5f0e590" />
+        </Method_Exit>
+        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viRead" Timestamp="150924067211097" AppName="InteractiveIO.exe" ThreadID="12596" ProcessID="12024" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="5">
+            <Parameter Name="buf" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
+                <Element Value="0x11002ac0" />
+            </Parameter>
+            <Parameter Name="cnt" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
+                <Element Value="1024" />
+            </Parameter>
+            <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
+                <Element Value="0x5bae454" />
             </Parameter>
             <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
                 <Element Value="0" />
-            </Parameter>
-            <Parameter Name="statusCode" RetVal="False" InParam="True" OutParam="False" ParamType="int32">
-                <Element Value="-1073807339" />
             </Parameter>
             <Parameter Name="vi" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
                 <Element Value="1" />
             </Parameter>
         </Method_Enter>
-        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="162369557181546" AppName="" ThreadID="13460" ProcessID="13272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="2" HRESULT="0" ElapsedNS="845677">
-            <Parameter Name="desc" RetVal="False" InParam="False" OutParam="True" ParamType="array_int8">
-                <Element BinHexValue="56495f4552524f525f544d4f3a20412074696d656f7574206f63637572726564" />
+        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="150924067211097" AppName="" ThreadID="12596" ProcessID="12024" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="3" HRESULT="0" ElapsedNS="119890000">
+            <Parameter Name="buf" RetVal="False" InParam="False" OutParam="True" ParamType="array_uint8">
+                <Element BinHexValue="1031c2c75731507e0bfdc2742188508003e4c2d14816508101cac277356a5081ffb0c2be192f5082fd96c2784d225083fb7cc2c29cc45084f961c27365f55085f747c2c53bda5086f52dc274619b5087f313c2be9ebc5088f0f9c2725fd95089eedfc2c24fcd508aecc5c26b1e9f508beaaac2c3da3b508ce890c26cf05f508de676c2bcf996508ee45cc26e1f92508fe242c2c39b0a5090e028c26caf355091de0dc2b1f9da5092dbf3c26cdfac5093d9d9c2bd9d315094d7bfc26d1b145095d5a5c2beae035096d38bc265986a5097d170c2c503775098cf56c26a7fa75099cd3cc2ce3e9b509acb22c2698445509bc908c2bda67e509cc6eec265010e509dc4d3c2b7e793509ec2b9c2681c08509fc09fc2b7453e50a0be85c26a911850a1bc6bc2bde24050a2ba51c268ad9950a3b837c2cac01650a4b61cc2659e3f50a5b402c2cae37a50a6b1e8c26bc07450a7afcec2be710850a8adb4c270112350a9ab9ac2bb10d150aaa97fc26e9aec50aba765c2c84e1450aca54bc269332450ada331c2c186d350aea117c264b7da50af9efdc2cdab7f50b09ce2c2603bfa50b19ac8c2b6845850b298aec261dd4150b39694c2be7ad250b4947ac25e120250b59260c2bc0ade50b69046c25dc13a50b78e2bc2c90d9450b88c11c261e61750b989f7c2bbf6ac50ba87ddc25b148e50bb85c3c2c2166c50bc83a9c25ca6f050bd818ec2b760ed50be7f74c25637a550bf7d5ac2b18de350c07b40c255504650c17926c2c2c56750c2770cc256f79150c374f1c2bace1d50c472d7c254cbb850c570bdc2afb5b00a" />
+            </Parameter>
+            <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="uint32">
+                <Element Value="583" />
             </Parameter>
             <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
                 <Element Value="0" />
             </Parameter>
         </Method_Exit>
-        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viWrite" Timestamp="162402495844480" AppName="InteractiveIO.exe" ThreadID="12776" ProcessID="13272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="5">
+        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viWrite" Timestamp="150934671197982" AppName="InteractiveIO.exe" ThreadID="5648" ProcessID="12024" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="5">
             <Parameter Name="buf" RetVal="False" InParam="True" OutParam="False" ParamType="array_uint8">
-                <Element BinHexValue="43414c433a46504f573a504f57313f0a" />
+                <Element BinHexValue="464f524d3a444154412041534349490a" />
             </Parameter>
             <Parameter Name="cnt" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
                 <Element Value="16" />
             </Parameter>
             <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
-                <Element Value="0x5f3eab0" />
+                <Element Value="0x60ce460" />
             </Parameter>
             <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
                 <Element Value="0" />
@@ -919,7 +204,7 @@
                 <Element Value="1" />
             </Parameter>
         </Method_Enter>
-        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="162402495844480" AppName="" ThreadID="12776" ProcessID="13272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="2" HRESULT="0" ElapsedNS="4148750">
+        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="150934671197982" AppName="" ThreadID="5648" ProcessID="12024" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="2" HRESULT="0" ElapsedNS="121696000">
             <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="uint32">
                 <Element Value="16" />
             </Parameter>
@@ -927,15 +212,15 @@
                 <Element Value="0" />
             </Parameter>
         </Method_Exit>
-        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viRead" Timestamp="162402613770912" AppName="InteractiveIO.exe" ThreadID="13492" ProcessID="13272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="5">
-            <Parameter Name="buf" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
-                <Element Value="0x1117ac90" />
+        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viWrite" Timestamp="150937450326506" AppName="InteractiveIO.exe" ThreadID="3656" ProcessID="12024" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="5">
+            <Parameter Name="buf" RetVal="False" InParam="True" OutParam="False" ParamType="array_uint8">
+                <Element BinHexValue="464554433a53414e3f0a" />
             </Parameter>
             <Parameter Name="cnt" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
-                <Element Value="1024" />
+                <Element Value="10" />
             </Parameter>
             <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
-                <Element Value="0x5fbebc4" />
+                <Element Value="0x5e8e280" />
             </Parameter>
             <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
                 <Element Value="0" />
@@ -944,12 +229,205 @@
                 <Element Value="1" />
             </Parameter>
         </Method_Enter>
-        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="162402613770912" AppName="" ThreadID="13492" ProcessID="13272" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="3" HRESULT="0" ElapsedNS="4283400">
+        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="150937450326506" AppName="" ThreadID="3656" ProcessID="12024" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="2" HRESULT="0" ElapsedNS="128516000">
+            <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="uint32">
+                <Element Value="10" />
+            </Parameter>
+            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
+                <Element Value="0" />
+            </Parameter>
+        </Method_Exit>
+        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viRead" Timestamp="150937666785306" AppName="InteractiveIO.exe" ThreadID="10748" ProcessID="12024" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="5">
+            <Parameter Name="buf" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
+                <Element Value="0x10e714f8" />
+            </Parameter>
+            <Parameter Name="cnt" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
+                <Element Value="1024" />
+            </Parameter>
+            <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
+                <Element Value="0x617e414" />
+            </Parameter>
+            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
+                <Element Value="0" />
+            </Parameter>
+            <Parameter Name="vi" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
+                <Element Value="1" />
+            </Parameter>
+        </Method_Enter>
+        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="150937666785306" AppName="" ThreadID="10748" ProcessID="12024" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="3" HRESULT="1073676294" ElapsedNS="176026000">
             <Parameter Name="buf" RetVal="False" InParam="False" OutParam="True" ParamType="array_uint8">
-                <Element BinHexValue="222d37342e3938322c2d37342e3638312c2d31332e3333392c2d37332e3936302c2d37332e363835220a" />
+                <Element BinHexValue="312e303030303030303030452b30372c2d312e363439393232373532452b30312c312e343331313535373739452b30382c2d312e303735313537353437452b30322c322e373632333131353538452b30382c2d362e393534343339353435452b30312c342e303933343637333337452b30382c2d312e303934363830303939452b30322c352e343234363233313136452b30382c2d362e373732353238383339452b30312c362e373535373738383934452b30382c2d392e393239303435313035452b30312c382e303836393334363733452b30382c2d362e353233393930363331452b30312c392e343138303930343532452b30382c2d312e303638383438353732452b30322c312e303734393234363233452b30392c2d362e363639303637333833452b30312c312e323038303430323031452b30392c2d312e303632313634363132452b30322c312e333431313535373739452b30392c2d362e373630323935313035452b30312c312e343734323731333537452b30392c2d312e303330373536373630452b30322c312e363037333836393335452b30392c2d382e333134303832313436452b30302c312e373430353032353133452b30392c2d312e303637323930353733452b30322c312e383733363138303930452b30392c2d362e363232313039393835452b30312c322e303036373333363638452b30392c2d392e393236373734353937452b30312c322e313339383439323436452b30392c2d362e353732313538303531452b30312c322e323732393634383234452b30392c2d312e303538313036323332452b30322c322e343036303830343032452b30392c2d362e353137393131353330452b30312c322e353339313935393830452b30392c2d312e303830333335313539452b30322c322e363732333131353538452b30392c2d362e353237383331323638452b30312c322e383035343237313336452b30392c2d312e303032373436383131452b30322c322e393338353432373134452b30392c2d362e303338373333363733452b30312c332e303731363538323931452b30392c2d312e303231303632323431452b30322c332e323034373733383639452b30392c2d362e353736363830373536452b30312c332e333337383839343437452b30392c2d312e303933303331303036452b30322c332e343731303035303235452b30392c2d362e353333393339333632452b30312c332e363034313230363033452b30392c2d392e393638313330343933452b30312c332e373337323336313831452b30392c2d362e343430353239363333452b30312c332e383730333531373539452b30392c2d312e313539343935373733452b30322c342e303033343637333337452b30392c2d362e353533333537363937452b30312c34" />
             </Parameter>
             <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="uint32">
-                <Element Value="42" />
+                <Element Value="1024" />
+            </Parameter>
+            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
+                <Element Value="1073676294" />
+            </Parameter>
+        </Method_Exit>
+        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viRead" Timestamp="150937843651949" AppName="InteractiveIO.exe" ThreadID="10748" ProcessID="12024" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="5">
+            <Parameter Name="buf" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
+                <Element Value="0x10e714f8" />
+            </Parameter>
+            <Parameter Name="cnt" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
+                <Element Value="1024" />
+            </Parameter>
+            <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
+                <Element Value="0x617e414" />
+            </Parameter>
+            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
+                <Element Value="0" />
+            </Parameter>
+            <Parameter Name="vi" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
+                <Element Value="1" />
+            </Parameter>
+        </Method_Enter>
+        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="150937843651949" AppName="" ThreadID="10748" ProcessID="12024" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="3" HRESULT="1073676294" ElapsedNS="134923000">
+            <Parameter Name="buf" RetVal="False" InParam="False" OutParam="True" ParamType="array_uint8">
+                <Element BinHexValue="2e313336353832393135452b30392c2d312e303630363130383836452b30322c342e323639363938343932452b30392c2d362e363730303634353435452b30312c342e343032383134303730452b30392c2d312e303632353531313933452b30322c342e353335393239363438452b30392c2d362e363530383330383431452b30312c342e363639303435323236452b30392c2d312e313335303439323130452b30322c342e383032313630383034452b30392c2d362e353632313439383131452b30312c342e393335323736333832452b30392c2d312e303237353337313535452b30322c352e303638333931393630452b30392c2d362e353832343138383233452b30312c352e323031353037353338452b30392c2d312e303338303732373339452b30322c352e333334363233313136452b30392c2d362e333735383333383933452b30312c352e343637373338363933452b30392c2d312e303234373836303732452b30322c352e363030383534323731452b30392c2d362e333937353835323937452b30312c352e373333393639383439452b30392c2d312e303137373933373332452b30322c352e383637303835343237452b30392c2d362e343134313232373732452b30312c362e303030323031303035452b30392c2d392e373935343833333938452b30312c362e313333333136353833452b30392c2d362e343638353331303336452b30312c362e323636343332313631452b30392c2d312e303439393331333335452b30322c362e333939353437373339452b30392c2d362e343836363236343334452b30312c362e353332363633333137452b30392c2d312e303330323938353338452b30322c362e363635373738383934452b30392c2d362e353531383135373936452b30312c362e373938383934343732452b30392c2d312e303235343533343135452b30322c362e393332303130303530452b30392c2d362e343839323733303731452b30312c372e303635313235363238452b30392c2d312e303434363437353232452b30322c372e313938323431323036452b30392c2d362e353434303036333438452b30312c372e333331333536373834452b30392c2d312e303238363331373434452b30322c372e343634343732333632452b30392c2d362e353538333133373531452b30312c372e353937353837393430452b30392c2d312e313237333931383135452b30322c372e373330373033353138452b30392c2d362e353236343139383330452b30312c372e383633383139303935452b30392c2d312e303031363031393434452b30322c372e393936393334363733452b30392c2d362e353336313635363139452b30312c382e313330303530323531452b30392c2d312e303134393938393332452b30322c382e" />
+            </Parameter>
+            <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="uint32">
+                <Element Value="1024" />
+            </Parameter>
+            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
+                <Element Value="1073676294" />
+            </Parameter>
+        </Method_Exit>
+        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viRead" Timestamp="150937979407102" AppName="InteractiveIO.exe" ThreadID="10748" ProcessID="12024" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="5">
+            <Parameter Name="buf" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
+                <Element Value="0x10e714f8" />
+            </Parameter>
+            <Parameter Name="cnt" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
+                <Element Value="1024" />
+            </Parameter>
+            <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
+                <Element Value="0x617e414" />
+            </Parameter>
+            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
+                <Element Value="0" />
+            </Parameter>
+            <Parameter Name="vi" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
+                <Element Value="1" />
+            </Parameter>
+        </Method_Enter>
+        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="150937979407102" AppName="" ThreadID="10748" ProcessID="12024" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="3" HRESULT="1073676294" ElapsedNS="118367000">
+            <Parameter Name="buf" RetVal="False" InParam="False" OutParam="True" ParamType="array_uint8">
+                <Element BinHexValue="323633313635383239452b30392c2d362e353332363035373433452b30312c382e333936323831343037452b30392c2d312e303735323938303034452b30322c382e353239333936393835452b30392c2d362e373137343433383438452b30312c382e363632353132353633452b30392c2d312e303635363938353437452b30322c382e373935363238313431452b30392c2d362e353839353831323939452b30312c382e393238373433373139452b30392c2d312e303132313234383633452b30322c392e303631383539323936452b30392c2d362e353638373137313934452b30312c392e313934393734383734452b30392c2d312e303835373835313431452b30322c392e333238303930343532452b30392c2d362e363235353335353833452b30312c392e343631323036303330452b30392c2d312e303535343638363734452b30322c392e353934333231363038452b30392c2d362e363130313237323538452b30312c392e373237343337313836452b30392c2d392e353530313630323137452b30312c392e383630353532373634452b30392c2d362e363430373133353031452b30312c392e393933363638333432452b30392c2d312e303138363137383539452b30322c312e303132363738333932452b31302c2d362e363636303336323234452b30312c312e303235393839393530452b31302c2d392e393833393035303239452b30312c312e303339333031353038452b31302c2d362e353930373934333733452b30312c312e303532363133303635452b31302c2d312e303232373930383333452b30322c312e303635393234363233452b31302c2d362e363738383330373139452b30312c312e303739323336313831452b31302c2d312e303039343831303439452b30322c312e303932353437373339452b31302c2d362e363437303837383630452b30312c312e313035383539323936452b31302c2d312e303332383035393339452b30322c312e313139313730383534452b31302c2d362e353230383933303937452b30312c312e313332343832343132452b31302c2d312e303434333236363330452b30322c312e313435373933393730452b31302c2d362e353532303736373231452b30312c312e313539313035353238452b31302c2d392e383339333331303535452b30312c312e313732343137303835452b31302c2d362e343531363636323630452b30312c312e313835373238363433452b31302c2d312e303035393838383436452b30322c312e313939303430323031452b31302c2d362e333638323533373038452b30312c312e323132333531373539452b31302c2d392e383234393530343039452b30312c312e323235363633333137452b31302c2d362e343038303833333434452b30312c312e32" />
+            </Parameter>
+            <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="uint32">
+                <Element Value="1024" />
+            </Parameter>
+            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
+                <Element Value="1073676294" />
+            </Parameter>
+        </Method_Exit>
+        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viRead" Timestamp="150938098600661" AppName="InteractiveIO.exe" ThreadID="10748" ProcessID="12024" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="5">
+            <Parameter Name="buf" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
+                <Element Value="0x10e714f8" />
+            </Parameter>
+            <Parameter Name="cnt" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
+                <Element Value="1024" />
+            </Parameter>
+            <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
+                <Element Value="0x617e414" />
+            </Parameter>
+            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
+                <Element Value="0" />
+            </Parameter>
+            <Parameter Name="vi" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
+                <Element Value="1" />
+            </Parameter>
+        </Method_Enter>
+        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="150938098600661" AppName="" ThreadID="10748" ProcessID="12024" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="3" HRESULT="1073676294" ElapsedNS="127866000">
+            <Parameter Name="buf" RetVal="False" InParam="False" OutParam="True" ParamType="array_uint8">
+                <Element BinHexValue="3338393734383734452b31302c2d312e303037353232323738452b30322c312e323532323836343332452b31302c2d362e333538313835313936452b30312c312e323635353937393930452b31302c2d312e303631343433383633452b30322c312e323738393039353438452b31302c2d362e333237323437363230452b30312c312e323932323231313036452b31302c2d392e373332313535363039452b30312c312e333035353332363633452b31302c2d362e343834323834393733452b30312c312e333138383434323231452b31302c2d312e303533333833353630452b30322c312e333332313535373739452b31302c2d362e343637363235343237452b30312c312e333435343637333337452b31302c2d312e303031373730343737452b30322c312e333538373738383934452b31302c2d362e343531343439353835452b30312c312e333732303930343532452b31302c2d392e393733363336363237452b30312c312e333835343032303130452b31302c2d362e333335323334303730452b30312c312e333938373133353638452b31302c2d312e303632313736313332452b30322c312e343132303235313236452b31302c2d362e333231323532383233452b30312c312e343235333336363833452b31302c2d312e303532393534313738452b30322c312e343338363438323431452b31302c2d362e333038333838393031452b30312c312e343531393539373939452b31302c2d392e363632323133313335452b30312c312e343635323731333537452b31302c2d362e333039373833393336452b30312c312e343738353832393135452b31302c2d392e343936323235373339452b30312c312e343931383934343732452b31302c2d362e313635363638383639452b30312c312e353035323036303330452b31302c2d392e393037313533333230452b30312c312e353138353137353838452b31302c2d362e303738353434323335452b30312c312e353331383239313436452b31302c2d312e303831383036343838452b30322c312e353435313430373034452b31302c2d362e303434373230343539452b30312c312e353538343532323631452b31302c2d392e383537383639373230452b30312c312e353731373633383139452b31302c2d362e303831333531343731452b30312c312e353835303735333737452b31302c2d392e353530353233333736452b30312c312e353938333836393335452b31302c2d362e303336333532393231452b30312c312e363131363938343932452b31302c2d392e343733303038373238452b30312c312e363235303130303530452b31302c2d352e383332313332333339452b30312c312e363338333231363038452b31302c2d382e383933313539343835452b30312c312e3635" />
+            </Parameter>
+            <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="uint32">
+                <Element Value="1024" />
+            </Parameter>
+            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
+                <Element Value="1073676294" />
+            </Parameter>
+        </Method_Exit>
+        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viRead" Timestamp="150938227338802" AppName="InteractiveIO.exe" ThreadID="10748" ProcessID="12024" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="5">
+            <Parameter Name="buf" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
+                <Element Value="0x10e714f8" />
+            </Parameter>
+            <Parameter Name="cnt" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
+                <Element Value="1024" />
+            </Parameter>
+            <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
+                <Element Value="0x617e414" />
+            </Parameter>
+            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
+                <Element Value="0" />
+            </Parameter>
+            <Parameter Name="vi" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
+                <Element Value="1" />
+            </Parameter>
+        </Method_Enter>
+        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="150938227338802" AppName="" ThreadID="10748" ProcessID="12024" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="3" HRESULT="1073676294" ElapsedNS="121116000">
+            <Parameter Name="buf" RetVal="False" InParam="False" OutParam="True" ParamType="array_uint8">
+                <Element BinHexValue="31363333313636452b31302c2d352e383931343433323533452b30312c312e363634393434373234452b31302c2d392e383934363138393838452b30312c312e363738323536323831452b31302c2d352e383934393032343230452b30312c312e363931353637383339452b31302c2d392e393637303239353732452b30312c312e373034383739333937452b31302c2d362e313033323734353336452b30312c312e373138313930393535452b31302c2d312e303436343037393238452b30322c312e373331353032353133452b31302c2d362e313830323136323137452b30312c312e373434383134303730452b31302c2d392e353034393138363731452b30312c312e373538313235363238452b31302c2d362e323037353332353031452b30312c312e373731343337313836452b31302c2d392e373330363138323836452b30312c312e373834373438373434452b31302c2d362e303834393536373431452b30312c312e373938303630333032452b31302c2d392e383631363839373538452b30312c312e383131333731383539452b31302c2d362e313039353331373834452b30312c312e383234363833343137452b31302c2d392e353331303032383038452b30312c312e383337393934393735452b31302c2d362e303539333630313233452b30312c312e383531333036353333452b31302c2d392e373135353836303930452b30312c312e383634363138303930452b31302c2d352e383737393930333431452b30312c312e383737393239363438452b31302c2d392e373932363233313338452b30312c312e383931323431323036452b31302c2d352e393233343733373430452b30312c312e393034353532373634452b31302c2d392e343438373437323533452b30312c312e393137383634333232452b31302c2d352e393533303833303338452b30312c312e393331313735383739452b31302c2d392e373830323831303637452b30312c312e393434343837343337452b31302c2d352e393137313130303632452b30312c312e393537373938393935452b31302c2d382e383938373939313333452b30312c312e393731313130353533452b31302c2d352e393231383432393537452b30312c312e393834343232313131452b31302c2d392e343830373031343437452b30312c312e393937373333363638452b31302c2d352e393237363434333438452b30312c322e303131303435323236452b31302c2d392e353333393836363634452b30312c322e303234333536373834452b31302c2d352e373339383834313836452b30312c322e303337363638333432452b31302c2d392e383530363736373237452b30312c322e303530393739383939452b31302c2d352e383632343636303439452b30312c322e303634" />
+            </Parameter>
+            <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="uint32">
+                <Element Value="1024" />
+            </Parameter>
+            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
+                <Element Value="1073676294" />
+            </Parameter>
+        </Method_Exit>
+        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viRead" Timestamp="150938349296389" AppName="InteractiveIO.exe" ThreadID="10748" ProcessID="12024" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="5">
+            <Parameter Name="buf" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
+                <Element Value="0x10e714f8" />
+            </Parameter>
+            <Parameter Name="cnt" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
+                <Element Value="1024" />
+            </Parameter>
+            <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
+                <Element Value="0x617e414" />
+            </Parameter>
+            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
+                <Element Value="0" />
+            </Parameter>
+            <Parameter Name="vi" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
+                <Element Value="1" />
+            </Parameter>
+        </Method_Enter>
+        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="150938349296389" AppName="" ThreadID="10748" ProcessID="12024" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="3" HRESULT="1073676294" ElapsedNS="145433000">
+            <Parameter Name="buf" RetVal="False" InParam="False" OutParam="True" ParamType="array_uint8">
+                <Element BinHexValue="323931343537452b31302c2d312e303331323232373633452b30322c322e303737363033303135452b31302c2d352e383337393136393436452b30312c322e303930393134353733452b31302c2d392e343832353138303035452b30312c322e313034323236313331452b31302c2d352e373235313032393937452b30312c322e313137353337363838452b31302c2d392e313935323239333430452b30312c322e313330383439323436452b31302c2d352e383032373337343237452b30312c322e313434313630383034452b31302c2d392e313633353233383635452b30312c322e313537343732333632452b31302c2d352e383634313639333132452b30312c322e313730373833393230452b31302c2d392e343934313839343533452b30312c322e313834303935343737452b31302c2d352e383136393532383936452b30312c322e313937343037303335452b31302c2d312e303133373531363738452b30322c322e323130373138353933452b31302c2d352e373430343533373230452b30312c322e323234303330313531452b31302c2d312e303134343432393032452b30322c322e323337333431373039452b31302c2d352e383933373934323530452b30312c322e323530363533323636452b31302c2d392e353232303736343136452b30312c322e323633393634383234452b31302c2d362e303031363733353038452b30312c322e323737323736333832452b31302c2d392e333533323834343534452b30312c322e323930353837393430452b31302c2d352e393635313239303839452b30312c322e333033383939343937452b31302c2d312e303031353234393633452b30322c322e333137323131303535452b31302c2d352e383239393934323032452b30312c322e333330353232363133452b31302c2d392e363736333332383535452b30312c322e333433383334313731452b31302c2d352e373137393534323534452b30312c322e333537313435373239452b31302c2d312e303238333439353333452b30322c322e333730343537323836452b31302c2d352e363035383537303836452b30312c322e333833373638383434452b31302c2d392e313235383438333839452b30312c322e333937303830343032452b31302c2d352e363436363036383237452b30312c322e343130333931393630452b31302c2d392e353233393838333432452b30312c322e343233373033353138452b31302c2d352e353531373538353735452b30312c322e343337303135303735452b31302c2d392e343032313232343938452b30312c322e343530333236363333452b31302c2d352e353433383639373831452b30312c322e343633363338313931452b31302c2d312e303035323635313938452b30322c322e34373639" />
+            </Parameter>
+            <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="uint32">
+                <Element Value="1024" />
+            </Parameter>
+            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
+                <Element Value="1073676294" />
+            </Parameter>
+        </Method_Exit>
+        <Method_Enter TraceSource="Agilent VISA" MethodName="VISA::viRead" Timestamp="150938495484489" AppName="InteractiveIO.exe" ThreadID="10748" ProcessID="12024" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="5">
+            <Parameter Name="buf" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
+                <Element Value="0x10e714f8" />
+            </Parameter>
+            <Parameter Name="cnt" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
+                <Element Value="1024" />
+            </Parameter>
+            <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="pointer32">
+                <Element Value="0x617e414" />
+            </Parameter>
+            <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
+                <Element Value="0" />
+            </Parameter>
+            <Parameter Name="vi" RetVal="False" InParam="True" OutParam="False" ParamType="uint32">
+                <Element Value="1" />
+            </Parameter>
+        </Method_Enter>
+        <Method_Exit TraceSource="Agilent VISA" MethodName="VISA" Timestamp="150938495484489" AppName="" ThreadID="10748" ProcessID="12024" Address="TCPIP0::141.121.92.205::inst0::INSTR" ParamCount="3" HRESULT="0" ElapsedNS="120515000">
+            <Parameter Name="buf" RetVal="False" InParam="False" OutParam="True" ParamType="array_uint8">
+                <Element BinHexValue="3439373439452b31302c2d352e363437343639373131452b30312c322e343930323631333037452b31302c2d392e333938313738313031452b30312c322e353033353732383634452b31302c2d352e343737303037323934452b30312c322e353136383834343232452b31302c2d392e373034333739323732452b30312c322e353330313935393830452b31302c2d352e353136333032343930452b30312c322e353433353037353338452b31302c2d392e313638393330383137452b30312c322e353536383139303935452b31302c2d352e333535343334303336452b30312c322e353730313330363533452b31302c2d382e383737373132323530452b30312c322e353833343432323131452b31302c2d352e333332383339323033452b30312c322e353936373533373639452b31302c2d392e373338353535313435452b30312c322e363130303635333237452b31302c2d352e333734313736343037452b30312c322e363233333736383834452b31302c2d392e333430323536353030452b30312c322e363336363838343432452b31302c2d352e333139383934343039452b30312c322e363530303030303030452b31302c2d382e373835343835383430452b30310a" />
+            </Parameter>
+            <Parameter Name="retCnt" RetVal="False" InParam="False" OutParam="True" ParamType="uint32">
+                <Element Value="456" />
             </Parameter>
             <Parameter Name="status" RetVal="True" InParam="False" OutParam="True" ParamType="int32">
                 <Element Value="0" />
