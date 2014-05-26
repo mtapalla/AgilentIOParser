@@ -1,6 +1,8 @@
 Agilent IO Monitor Parser
 ===============
 
+![alt text](http://repo.tapalla.com/images/IOMonitor1.png "Agilent IO Monitor")
+
 Make practical use of those useless Agilent IO Monitor generated logs.
 
 The __Agilent IO Monitor__ application, which is a part of the __Agilent IO Libraries Suite__, records all SCPI transactions sent between the host PC and instruments it is communicating with.
