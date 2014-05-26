@@ -1,6 +1,21 @@
 ## MANUALLY ADDED FILES
 src/setup.py
 .pydevproject
+.project
+src/archive/IOMonitorLog.xml
+src/archive/IOMonitorLog_fpow.xml
+src/archive/IOMonitorLog_full.xml
+src/archive/IOMonitorLog_san200ascii.xml
+src/archive/IOMonitorLog_san200real.xml
+src/IOMonitorLog.txt
+src/IOMonitorLog.xls
+src/IOMonitorLog.xml.txt
+src/IOMonitorLog.xml.xls
+src/IOMonitorLog_fpow.xml
+src/IOMonitorLog_full.xml
+src/IOMonitorLog_san200ascii.xml
+src/IOMonitorLog_san200real.xml
+src/Run.bat
 #######################
 
 # Byte-compiled / optimized / DLL files
